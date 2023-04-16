@@ -1,0 +1,13 @@
+{
+    "name": "dmongo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "start.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./start.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
