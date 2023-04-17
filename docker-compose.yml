@@ -9,6 +9,8 @@ services:
         image: mongo:4.4
         expose:
             - 27017
+        ports:
+            - 27017:27017
         environment:
             - TZ=America/Edmonton
         volumes:
@@ -16,6 +18,8 @@ services:
 
     mongo-express:
         image: mongo-express
+        ports:
+            - 8081:8081
         depends_on:
             - mongo
         environment:
